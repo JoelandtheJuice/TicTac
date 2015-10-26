@@ -111,9 +111,9 @@
 							<configuration>
 								<file>${basedir}/lib/algs4.jar</file>
 								<repositoryLayout>default</repositoryLayout>
-								<groupId>algs4</groupId>
+								<groupId>lib.algs4</groupId>
 								<artifactId>algs4</artifactId>
-								<version>0.0.1</version>
+								<version>1</version>
 								<packaging>jar</packaging>
 								<generatePom>true</generatePom>
 							</configuration>

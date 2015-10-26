@@ -180,7 +180,7 @@ public class TicTacToe {
 			{
 				game.makeMove(move, game.currentPlayer);
 				game.displayBoard();
-				if(turn > 5 && game.checkForWinner())
+				if(game.checkForWinner())
 				{
 					game.declareWinner();
 					break;

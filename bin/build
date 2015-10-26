@@ -1,3 +1,4 @@
+mvn clean
 mvn -q package
 
 if [ $? -ne 0 ]; then
@@ -6,4 +7,4 @@ if [ $? -ne 0 ]; then
 fi
 
 cp target/tictactoe-jar-with-dependencies.jar $1
-mvn clean
+

@@ -1,5 +1,5 @@
 
-package test.java.ticTacToeTest;
+package test.java.is.jatj.tictactoe.game;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import edu.princeton.cs.algs4.StdOut;

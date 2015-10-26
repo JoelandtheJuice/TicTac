@@ -139,7 +139,7 @@
             <artifactId>algs4</artifactId>
             <version>1</version>
 			<scope>system</scope>
--           <systemPath>${project.basedir}/lib/algs4.jar</systemPath>
+          <systemPath>${project.basedir}/lib/algs4.jar</systemPath>
         </dependency>
 	</dependencies>
 

@@ -169,7 +169,7 @@ public class TicTacToe {
 		int turn = 0;
 		while(true)
 		{
-			if(turn > 6)
+			if(turn > 8)
 			{
 				StdOut.println("DRAW!");
 				break;

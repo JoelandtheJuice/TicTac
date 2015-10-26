@@ -3,5 +3,6 @@ language: java
 jdk:
   - oraclejdk7
 before_script:
- - chmod +x travis
+ - chmod +x ~/bin/travis
+ 
 script: ./bin/travis

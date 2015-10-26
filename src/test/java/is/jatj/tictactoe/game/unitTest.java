@@ -3,6 +3,7 @@ package test.java.is.jatj.tictactoe.game;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import edu.princeton.cs.algs4.StdOut;
+import main.java.is.jatj.tictactoe.game.TicTacToe;
 
 public class unitTest{
 	// usesless comment

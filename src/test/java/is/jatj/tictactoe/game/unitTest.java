@@ -62,6 +62,16 @@ public class unitTest{
 			assertEquals(true, game.checkForWinner());
 			
 		}
+		@Test
+		public void testplayerO() {
+			game.makeMove(0, 0);
+			assertEquals('O', game.board[0][0]);
+		}	
+		@Test
+		public void testplayerX() {
+			game.makeMove(0, 1);
+			assertEquals('X', game.board[0][0]);
+		}
 
 		
 	

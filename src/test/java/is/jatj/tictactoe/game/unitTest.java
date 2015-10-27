@@ -146,3 +146,4 @@ public class unitTest{
 			assertEquals('X', game.player[1]);
 		}
 }
+}

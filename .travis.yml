@@ -8,6 +8,5 @@ script: ./bin/travis
 
 deploy:
   provider: heroku
-  api_key:
-  secure: 40429e9c-0486-43e6-8ccf-07a71569461c
+  api_key: 40429e9c-0486-43e6-8ccf-07a71569461c
   app: jatj-tictactoe

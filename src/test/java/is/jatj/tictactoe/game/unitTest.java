@@ -73,17 +73,8 @@ public class unitTest{
 			assertEquals('X', game.board[0][0]);
 		}
 		@Test
-		public void testcleanboard() {
-			game.makeMove(0, 1);
-			game.makeMove(3, 1);
-			game.makeMove(4, 1);
-			game.makeMove(2, 1);
-			game.makeMove(8, 1);
-			game.makeMove(6, 1);
-			game.makeMove(7, 1);
-			game.makeMove(1, 1);
-			game.makeMove(5, 1);
-			game.cleanBoard();
+		public void testintializeBoard() {
+			game.initializeBoard();
 			char c[] = new char[9];
 			c[0] = '1';
 			c[1] = '2';
@@ -105,8 +96,7 @@ public class unitTest{
 					assertEquals(c[co], game.board[i][j]);
 					co++;
 				}
-			}
-			
+			}	
 		}
 
 		

@@ -2,7 +2,6 @@ language: java
 
 jdk:
   - oraclejdk7
-before_script:
- - chmod a+x /bin/travis
+before_script: chmod a+x bin/travis
  
 script: ./bin/travis
